@@ -167,8 +167,14 @@ FROM ((Orders
 INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID)
 INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID);
 
+(For distinct value)
+** SELECT column_name(s) FROM table1
+UNION
+SELECT column_name(s) FROM table2;
 
-
+** SELECT column_name(s) FROM table1
+UNION ALL
+SELECT column_name(s) FROM table2;
 
 
 
