@@ -1,3 +1,74 @@
+'''
+To prepare for your MySQL aptitude test effectively before January 24th, here’s a study plan with resources, time allocation, and topics to focus on:
+
+Study Plan Overview (Approx. 3-4 Days)
+Day 1: Foundation and Basic Concepts (Approx. 1.5–2 hours)
+
+Topics to cover:
+Introduction to MySQL: Understand what MySQL is and its applications in databases.
+Basic SQL Commands: SELECT, INSERT, UPDATE, DELETE.
+Data Types in MySQL: INT, VARCHAR, DATE, etc.
+Basic Filtering: WHERE clause, logical operators (AND, OR, NOT), and comparison operators (=, <>, >, <, BETWEEN, IN).
+Resources:
+W3Schools MySQL Tutorial
+MySQL Documentation
+Day 2: Intermediate SQL Queries (Approx. 2–2.5 hours)
+
+Topics to cover:
+JOINs: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN (if applicable).
+GROUP BY and HAVING: Aggregate functions like COUNT(), AVG(), SUM(), MIN(), MAX().
+ORDER BY: Sorting results, both ascending and descending.
+Subqueries: Subqueries in SELECT, WHERE, and FROM clauses.
+Resources:
+SQL Joins Explained
+MySQL Aggregate Functions
+Day 3: Advanced MySQL Features (Approx. 2 hours)
+
+Topics to cover:
+Indexes: Why they are important for query performance.
+Normalization and Relationships: Primary and Foreign Keys, normalization rules (1NF, 2NF, 3NF).
+Stored Procedures and Triggers (Basic Understanding).
+Transactions: COMMIT, ROLLBACK, and isolation levels.
+Resources:
+MySQL Indexing
+MySQL Transactions
+Day 4: Practice and Mock Tests (Approx. 1.5–2 hours)
+
+Topics to cover:
+Take practice tests or quizzes to simulate the actual test environment.
+Review tricky SQL problems and reattempt them if necessary.
+Focus on time management during this practice session.
+Resources:
+HackerRank SQL Practice
+LeetCode SQL Problems
+MySQL Mock Test
+Additional Preparation Tips:
+Practice Writing Queries: The best way to prepare for an aptitude test is by writing queries, not just reading them. Use an online MySQL editor or XAMPP to run your queries and understand their behavior.
+Review Test Format: If possible, check if there’s any sample test available or details about the types of questions (e.g., multiple-choice, coding problems, or theoretical questions).
+Set a Time Limit: Since the test will take 25-35 minutes, ensure that you practice within that time frame during your mock tests. Focus on accuracy and speed.
+Stay Calm and Focused: Ensure that you are well-rested before the test and have a stable internet connection.
+Time Needed to Study:
+Total Study Time: Approx. 7–8 hours across 3–4 days.
+Breakdown:
+Day 1: 1.5–2 hours (Basics)
+Day 2: 2–2.5 hours (Intermediate concepts)
+Day 3: 2 hours (Advanced concepts)
+Day 4: 1.5–2 hours (Mock tests)
+Final Preparation
+Make sure you finish studying by January 23rd so that you can revise briefly the day before the test.
+Have a clear plan to avoid interruptions during your test on January 24th.
+Good luck with your preparation! If you need any help with specific topics, feel free to ask.
+
+'''
+
+
+
+
+
+
+
+
+
 '''select * from customer;
 
 
@@ -195,4 +266,21 @@ FROM table_name
 WHERE EXISTS
 (SELECT column_name FROM table_name WHERE condition);
 
+** CASE
+    WHEN condition1 THEN result1
+    WHEN condition2 THEN result2
+    WHEN conditionN THEN resultN
+    ELSE result
+END;
+
+INSERT INTO table2
+SELECT * FROM table1
+WHERE condition;
+
+INSERT INTO table2 (column1, column2, column3, ...)
+SELECT column1, column2, column3, ...
+FROM table1
+WHERE condition;
+
+SHOW DATABASE;
 '''
