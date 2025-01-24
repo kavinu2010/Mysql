@@ -283,4 +283,5 @@ FROM table1
 WHERE condition;
 
 SHOW DATABASE;
+usgned,signed ,zeroful attributes
 '''
