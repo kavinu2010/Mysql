@@ -287,4 +287,5 @@ usgned,signed ,zeroful attributes;
 stored procedure, stored function;
 trigger, events;
 Mysql view; 
+checks and cascade;
 '''
