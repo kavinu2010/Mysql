@@ -283,9 +283,10 @@ FROM table1
 WHERE condition;
 
 SHOW DATABASE;
-usgned,signed ,zeroful attributes;
+---usgned,signed ,zeroful attributes;
 stored procedure, stored function;
 trigger, events;
 Mysql view; 
-checks and cascade;
+local and cascade;---
+
 '''
